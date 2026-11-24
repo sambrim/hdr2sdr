@@ -2,6 +2,9 @@
 
 A lightweight command-line tool written in Rust that checks if a video file is HDR and safely converts it to SDR using `ffprobe` and `ffmpeg`.
 
+### TL;DR
+Checks if a video file has a colorspace that mathes HDR, converts it to SDR BT709.
+
 ## What It Does
 
 1. **Checks the video first:** Uses `ffprobe` to inspect the video's color metadata (BT.2020 colorspace/primaries, PQ, or HLG). If the video is already SDR, it skips it.
