@@ -18,5 +18,3 @@ Checks if a video file has a colorspace that mathes HDR, converts it to SDR BT70
   apt install ffmpeg
   dnf install ffmpeg
   winget install ffmpeg
-  
-  
